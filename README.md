@@ -18,9 +18,9 @@ Faca tambem um histogram dos precos.
 6. Load os datos coletados ate agora direto do repositorio central em um dataframe para poder append os seus e salvar com o mesmo nome.
 
 `
-df=pd.read_csv("https://raw.githubusercontent.com/areias/cesta-basica/main/data/cesta-basica.csv")
-df=df.append(teu_df)
-df.to_csv("cesta-basica.csv")
+df=pd.read_csv("https://raw.githubusercontent.com/areias/cesta-basica/main/data/cesta-basica.csv")  
+df=df.append(teu_df)  
+df.to_csv("cesta-basica.csv")  
 `
 
 7. Uma vez satisfeita com o seu codigo escolher no menu File > Save Copy to Github.
