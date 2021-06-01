@@ -1,8 +1,26 @@
 
 
-# Como contribuir para Cesta Basica
+# Criando um Índice de Cesta Basica de forma Colaborativa 
 
-Aqui seguem instruções de como contribuir ao projeto de Cesta Básica usando a webpage do Github. 
+O íntuito deste projeto é seguir o espirito da [metodologia definida pelo DIEESE](https://www.dieese.org.br/metodologia/metodologiaCestaBasica2016.pdf) para o calculo do custo médio da cesta básica de alimentos usando dados coletados de forma automatizada da internet usando Python. 
+
+Vamos a trabalhar no google Colaboratory assim não será necessário instalar Python no computador.
+
+Vamos aprender a utilizar os seguintes pacotes Python:
+
+* [requests](https://docs.python-requests.org/en/master/user/quickstart/)
+* urllib
+* [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/#quick-start)
+* json
+* [pandas](https://pandas.pydata.org/docs/getting_started/tutorials.html)
+* numpy
+* [re](https://docs.python.org/3/howto/regex.html)
+
+Não esquecer de o recurso mais importante de todos, [Stackoverflow!](https://stackoverflow.com/questions/tagged/data-science)
+
+E como bonus, vamos aprender o workflow de como contribuir a um projeto usando Github pela webpage, sem a necessidade de trabalhar na linha de comando.
+
+Aqui seguem instruções de como contribuir:
 
 
 1. Criar conta no Github.
