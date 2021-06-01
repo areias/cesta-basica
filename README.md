@@ -9,7 +9,7 @@ Vale mencionar que o [mais recente relatorio mensal do DIEESE](https://www.diees
 >O tempo  médio  necessário  para  adquirir  os  produtos  da  cesta,  em março,ficou  em 109 horas e 18 minutos,menor do que em fevereiro,quando foi de 110 horas e 22 minutos.
 
 
-Vamos a trabalhar no google Colaboratory assim não será necessário instalar Python no computador.
+Vamos a trabalhar no [Google Colaboratory](https://colab.research.google.com/notebooks/intro.ipynb#) assim não será necessário instalar Python no computador.
 
 Vamos aprender a utilizar os seguintes pacotes Python:
 
@@ -32,17 +32,16 @@ Aqui seguem instruções de como contribuir:
 
 2. Dar um **Fork** no repositório cesta-basica para criar uma copia do repositorio na tua conta Github.
 
-3. Abrir o arquivo cesta-basica.ipynb no Google colab.
+3. Abrir o arquivo cesta-basica.ipynb no Google colab. Explorar o notebook! Pode fazer rodar as celulas de codigo ou experimentar mudando o codigo para entender como funciona. 
 
-4. Navegar ate o fim do documento e addicionar um titulo com o produto que vais escolher em um markdown cell, por exemplo: 
+4. Quando estiver pronta para fazer a sua contribuição de preços de um novo produto, navegar ate o fim do documento e addicionar um titulo com o produto escolhido em um markdown cell, por exemplo:
 
 `## 2. Bananas`
 
-5. Scrape e processar os dados do seu produto escolhido da forma que temos feito ate agora para calcular o preço médio do produto, comforme definido pela nota metodológica. Por exemplo, para Bananas e o preço medio de uma duzia.
 
-Faça tambem um histogram dos precos.
+5. Scrape e processar os dados do seu produto escolhido replicando o código do notebook para calcular o preço médio do produto, comforme definido pela nota metodológica. Por exemplo, para Banana é o preço medio de uma duzia. Faça tambem um histogram dos precos.
 
-6. Load os datos coletados até agora direto do repositorio central em um dataframe para poder append os seus e salvar com o mesmo nome.
+6. Load os dados coletados até agora do repositorio central em um dataframe para poder append os seus novos dados e salvar com o mesmo nome.
 
 ```
 df=pd.read_csv("https://raw.githubusercontent.com/areias/cesta-basica/main/data/cesta-basica.csv")   
