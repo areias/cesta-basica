@@ -4,6 +4,11 @@
 
 O íntuito deste projeto é seguir o espirito da [metodologia definida pelo DIEESE](https://www.dieese.org.br/metodologia/metodologiaCestaBasica2016.pdf) para o calculo do custo médio da cesta básica de alimentos usando dados coletados de forma automatizada da internet usando Python. 
 
+Vale mencionar que o [mais recente relatorio mensal do DIEESE](https://www.dieese.org.br/analisecestabasica/2021/202103cestabasica.pdf) menciona que:
+
+>O tempo  médio  necessário  para  adquirir  os  produtos  da  cesta,  em março,ficou  em 109 horas e 18 minutos,menor do que em fevereiro,quando foi de 110 horas e 22 minutos.
+
+
 Vamos a trabalhar no google Colaboratory assim não será necessário instalar Python no computador.
 
 Vamos aprender a utilizar os seguintes pacotes Python:
